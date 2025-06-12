@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/index.ts",
-    "ngrok": "ngrok http 3000"
+  "start": "node dist/index.js",
+  "build": "tsc",
+  "dev": "nodemon --exec ts-node src/index.ts"
+
   },
   "keywords": [],
   "author": "",
